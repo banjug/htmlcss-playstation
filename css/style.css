@@ -7,7 +7,13 @@ body{
 
 /* mio bottone personalizzato */
 .ms-button {
-    /* padding: 0 10px; */
+    text-decoration: none;
+    color: #ffffff;
+    display: inline-block;
+}
+
+.ms-button:hover {
+    color: #ffffff;
 }
 
 .ms-button:hover .ms-button-border {
@@ -18,17 +24,13 @@ body{
     padding: 2px;
     box-shadow: none;
     border-radius: 30px;
+    transition: all .2s ease;
 }
 
 .ms-button-inside {
     background-color: #363636;
     padding: 5px 15px;
     border-radius: 30px;
-}
-
-.ms-button {
-    text-decoration: none;
-    color: #ffffff;
 }
 
 /* ////////////////////////////////////////// */
@@ -49,16 +51,27 @@ header #sony-logo img {
 
 /* navbar */
 
-header nav div div:last-child {
-    flex-grow: 0;
-}
-
-header nav div div#navbarNav:last-child li.nav-item {
+header nav div div#navbarNav li.nav-item {
     display: flex;
     align-items: center;
-    justify-content: center;
+}
+
+header nav div div#navbarNav:last-child li.nav-item:last-child {
+    margin: 10px 0;
+}
+
+@media (min-width: 992px) {
+    header nav div div#navbarNav:last-child li.nav-item:last-child {
+        margin: 0 0 0 10px;
+    } 
 }
 
 header nav div div#navbarNav:last-child li.nav-item:last-child img {
-    height: 60%;
+    height: 30px;
+}
+
+@media (min-width: 992px) {
+    header nav div div#navbarNav:last-child li.nav-item:last-child img {
+        padding: 0;
+    } 
 }
