@@ -1,16 +1,64 @@
+/* regole generali */
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* mio bottone personalizzato */
+.ms-button {
+    /* padding: 0 10px; */
+}
+
+.ms-button:hover .ms-button-border {
+    box-shadow: 0 0 0 2px #363636;
+}
+
+.ms-button-border {
+    padding: 2px;
+    box-shadow: none;
+    border-radius: 30px;
+}
+
+.ms-button-inside {
+    background-color: #363636;
+    padding: 5px 15px;
+    border-radius: 30px;
+}
+
+.ms-button {
+    text-decoration: none;
+    color: #ffffff;
+}
+
 /* ////////////////////////////////////////// */
 /* header */
 
-/* navbar */
 
 /* logo sony */
-header nav #sony-logo {
+header #sony-logo {
     background-color: #000000;
     padding: 10px;
     display: flex;
     justify-content: flex-end;
 }
 
-header nav #sony-logo img {
+header #sony-logo img {
     height: 15px;
+}
+
+/* navbar */
+
+header nav div div:last-child {
+    flex-grow: 0;
+}
+
+header nav div div#navbarNav:last-child li.nav-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header nav div div#navbarNav:last-child li.nav-item:last-child img {
+    height: 60%;
 }
