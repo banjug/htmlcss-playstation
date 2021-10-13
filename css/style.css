@@ -156,3 +156,46 @@ header nav div div#navbarNav:last-child li.nav-item:last-child img {
     width: 100%;
     border-radius: 15px;
 }
+
+/* ////////////////////////////////////////// */
+/* main */
+
+/* sezione ps5 */
+
+main #ps5-section div.container:first-child {
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+
+main #ps5-section div.container h2 {
+    color: #1f1f1f;
+    font-size: 3rem;
+    margin-bottom: 30px;
+}
+
+main #ps5-section div.container h3 {
+    color: #727272;
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+main #ps5-section div.container h4 {
+    color: #117bd1;
+    font-size: 1rem;
+}
+
+main #ps5-section div.container:last-child .row {
+    align-items: center;
+}
+
+main #ps5-section div.container:last-child img {
+    width: 100%;
+}
+
+main #ps5-section .ms-button .ms-button-inside {
+    background-color: #2d64e6;
+} 
+
+main #ps5-section .ms-button:hover .ms-button-border {
+    box-shadow: 0 0 0 2px #2d64e6;
+}
