@@ -500,3 +500,56 @@ footer #social-media div img {
 footer #social-media div a:hover img {
     transform: scale(1.03);
 }
+
+/* footer inferiore */
+
+footer #lower-footer {
+    background-color: #00439c;
+    color: #ffffff;
+    padding: 100px 0;
+}
+
+footer #lower-footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer #lower-footer #ps-logo-footer img {
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+footer #lower-footer #language-selector img {
+    height: 20px;
+    margin: 0 10px 0 0;
+}
+
+footer #lower-footer #footer-nav .row {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+@media (min-width: 992px) {
+    footer #lower-footer #footer-nav .row {
+        margin-top: 0;
+        margin-bottom: 50px;
+    }
+}
+
+footer #lower-footer #footer-nav ul li {
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+footer #lower-footer .container > div.row:nth-child(2) img {
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+footer #lower-footer .container > div.row:nth-child(2) p {
+    font-size: 1rem;
+}
+
+footer #lower-footer .container > div.row:nth-child(2) p a {
+    text-decoration: underline;
+}
