@@ -428,6 +428,11 @@ main #discounts .ms-wrapper h2 {
 
 main #discounts .container .row .col img {
     max-width: 100%;
+    transition: all .2s ease;
+}
+
+main #discounts .container .row .col a:hover img {
+    transform: scale(1.02);
 }
 
 /* sezione ps now */
@@ -470,4 +475,28 @@ main #ps-now .ms-button .ms-button-inside {
 
 main #ps-now .ms-button:hover .ms-button-border {
     box-shadow: 0 0 0 2px #f5f5f5;
+}
+
+/* ////////////////////////////////////////// */
+/* footer */
+
+/* social media  */
+footer #social-media {
+    width: 50%;
+    margin: 100px auto 150px;
+    text-align: center;
+}
+
+footer #social-media h2 {
+    margin-bottom: 100px;
+}
+
+footer #social-media div img {
+    width: calc(20% - 20px);
+    margin: 0 20px;
+    transition: all .2s ease;
+}
+
+footer #social-media div a:hover img {
+    transform: scale(1.03);
 }
