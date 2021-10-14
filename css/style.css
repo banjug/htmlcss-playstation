@@ -67,6 +67,17 @@ header nav div div#navbarNav li.nav-item {
     align-items: center;
 }
 
+header nav div div#navbarNav li.nav-item a .ms-chevron-down {
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+        background-image: url('../img/chevron-down-solid.svg');
+}
+
+header nav div div#navbarNav li.nav-item a img {
+    height: 15px;
+}
+
 header nav div div#navbarNav:last-child li.nav-item:last-child {
     margin: 10px 0;
 }
