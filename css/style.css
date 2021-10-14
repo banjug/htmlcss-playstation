@@ -367,3 +367,27 @@ main #ps4-section .ms-button .ms-button-inside {
 main #ps4-section .ms-button:hover .ms-button-border {
     box-shadow: 0 0 0 2px #2d64e6;
 }
+
+/* sezione ps plus  */
+
+main #ps-plus .jumbotron {
+    background-color: #bebcbb;
+}
+
+main #ps-plus .jumbotron .container .row .col img {
+    max-width: 80%;
+    margin-bottom: 20px;
+}
+
+main #ps-plus .ms-button {
+    color: #2d64e6;
+    margin-top: 20px;
+}
+
+main #ps-plus .ms-button .ms-button-inside {
+    background-color: #d9dadc;
+} 
+
+main #ps-plus .ms-button:hover .ms-button-border {
+    box-shadow: 0 0 0 2px #d9dadc;
+}
