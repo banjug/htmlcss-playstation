@@ -325,3 +325,45 @@ main #new-release .container .row .col a img {
     border-radius: 30px;
     transition: all .2s ease;
 }
+
+/* sezione ps4 */
+
+main #ps4-section{
+    padding: 50px 0;
+}
+
+main #ps4-section h3 {
+    color: #727272;
+}
+
+main #ps4-section .ms-wrapper {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+main #ps4-section .ms-wrapper {
+    margin-bottom: 50px;
+}
+
+main #ps4-section .ms-wrapper h2 {
+    margin-bottom: 30px;
+}
+
+main #ps4-section .container .row .col img {
+    max-width: 100%;
+    margin-bottom: 10px;
+}
+
+main #ps4-section .container .row .col h2 {
+    margin-bottom: 20px;
+
+}
+
+main #ps4-section .ms-button .ms-button-inside {
+    background-color: #2d64e6;
+} 
+
+main #ps4-section .ms-button:hover .ms-button-border {
+    box-shadow: 0 0 0 2px #2d64e6;
+}
