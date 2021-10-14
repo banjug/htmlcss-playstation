@@ -11,6 +11,22 @@ body{
     }
 }
 
+h2 {
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+h4 {
+    font-size: 1rem;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
 /* mio bottone personalizzato */
 .ms-button {
     text-decoration: none;
@@ -66,13 +82,13 @@ header nav div div#navbarNav li.nav-item {
     display: flex;
     align-items: center;
 }
-
+/* 
 header nav div div#navbarNav li.nav-item a .ms-chevron-down {
     display: inline-block;
     height: 15px;
     width: 15px;
         background-image: url('../img/chevron-down-solid.svg');
-}
+} */
 
 header nav div div#navbarNav li.nav-item a img {
     height: 15px;
@@ -101,10 +117,9 @@ header nav div div#navbarNav:last-child li.nav-item:last-child img {
 /* ////////////////////////////////////////// */
 /* jumbotron */
 
-#jumbotron-section #jumbotron {
+#jumbotron-section .jumbotron {
     margin-top: 111px;
     height: 600px;
-    background-color: chartreuse;
     background-image: url('../img/jumbo-bg.png');
     background-size: cover;
     background-position: center;
@@ -114,18 +129,18 @@ header nav div div#navbarNav:last-child li.nav-item:last-child img {
     padding-bottom: 50px;
 }
 
-#jumbotron-section #jumbotron > img {
+#jumbotron-section .jumbotron > img {
     height: 100%;
     width: 100%;
     object-fit: cover;
 }
 
-#jumbotron-section #jumbotron .container div.row:first-child div img {
+#jumbotron-section .jumbotron .container div.row:first-child div img {
     max-width: 100%;
     margin: 10px 0;
 }
 
-#jumbotron-section #jumbotron h2, #jumbotron p {
+#jumbotron-section .jumbotron h2, #jumbotron-section .jumbotron p {
     color: #ffffff;
     padding: 20px 0;
 }
@@ -185,19 +200,16 @@ main #ps5-section div.container:first-child {
 
 main #ps5-section div.container h2 {
     color: #1f1f1f;
-    font-size: 3rem;
     margin-bottom: 30px;
 }
 
 main #ps5-section div.container h3 {
     color: #727272;
-    font-size: 1.5rem;
     margin-bottom: 30px;
 }
 
 main #ps5-section div.container h4 {
     color: #2d64e6;
-    font-size: 1rem;
 }
 
 main #ps5-section div.container:last-child .row {
@@ -248,4 +260,32 @@ main #ps5-section #ps5-carousel .col:hover .ms-ps5-overlay {
 
 main #ps5-section #ps5-carousel .col img {
     margin-bottom: 20px;
+}
+
+/* it takes two jumbotron */
+main #jumbotron-two {
+
+    background-image: url('../img/it-takes-two-hero-banner-desktop.jpg');
+    background-size: cover;
+    background-position: center;
+
+    padding: 50px 0;
+}
+
+main #jumbotron-two .container .row div img {
+    max-width: 100%;
+    margin: 10px 0;
+}
+
+main #jumbotron-two h2, main #jumbotron-two p {
+    color: #ffffff;
+    padding: 20px 0;
+}
+
+main #jumbotron-two .ms-button .ms-button-inside {
+    background-color: #cd3d0f;
+} 
+
+main #jumbotron-two .ms-button:hover .ms-button-border {
+    box-shadow: 0 0 0 2px #cd3d0f;
 }
