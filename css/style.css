@@ -372,11 +372,28 @@ main #ps4-section .ms-button:hover .ms-button-border {
 
 main #ps-plus .jumbotron {
     background-color: #bebcbb;
+    padding: 50px 0;
 }
 
-main #ps-plus .jumbotron .container .row .col img {
+main #ps-plus .jumbotron .container .row div.col:nth-child(1) img {
     max-width: 80%;
     margin-bottom: 20px;
+}
+
+main #ps-plus .jumbotron .container .row div.col:nth-child(2) img {
+    max-width: 100%;
+    display: none;
+}
+
+@media (min-width: 992px) {
+    main #ps-plus .jumbotron {
+        padding: 0;
+    }
+    
+    main #ps-plus .jumbotron .container .row div.col:nth-child(2) img {
+        display: inline-block;
+    }   
+
 }
 
 main #ps-plus .ms-button {
@@ -390,4 +407,46 @@ main #ps-plus .ms-button .ms-button-inside {
 
 main #ps-plus .ms-button:hover .ms-button-border {
     box-shadow: 0 0 0 2px #d9dadc;
+}
+
+/* sezione ps now */
+
+main #ps-now .jumbotron {
+    background-color: #161c3b;
+    padding: 50px 0;
+    color: #ffffff;
+}
+
+main #ps-now .jumbotron .container .row div.col:nth-child(1) img {
+    max-width: 80%;
+    margin-bottom: 20px;
+}
+
+main #ps-now .jumbotron .container .row div.col:nth-child(2) img {
+    max-width: 100%;
+    display: none;
+}
+
+@media (min-width: 992px) {
+    main #ps-now .jumbotron {
+        padding: 0;
+    }
+    
+    main #ps-now .jumbotron .container .row div.col:nth-child(2) img {
+        display: inline-block;
+    }   
+
+}
+
+main #ps-now .ms-button {
+    color: #000000;
+    margin-top: 20px;
+}
+
+main #ps-now .ms-button .ms-button-inside {
+    background-color: #f5f5f5;
+} 
+
+main #ps-now .ms-button:hover .ms-button-border {
+    box-shadow: 0 0 0 2px #f5f5f5;
 }
