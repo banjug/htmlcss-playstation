@@ -56,6 +56,12 @@ p {
     border-radius: 30px;
 }
 
+.ms-wrapper {
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+}
+
 /* ////////////////////////////////////////// */
 /* header */
 
@@ -295,7 +301,7 @@ main #jumbotron-two .ms-button:hover .ms-button-border {
 main #new-release {
     background-color: #1f1f1f;
     color: #ffffff;
-    padding: 50px 0;
+    padding: 100px 0;
 }
 
 main #new-release h2, main #new-release h3 {
@@ -329,17 +335,11 @@ main #new-release .container .row .col a img {
 /* sezione ps4 */
 
 main #ps4-section{
-    padding: 50px 0;
+    padding: 100px 0;
 }
 
 main #ps4-section h3 {
     color: #727272;
-}
-
-main #ps4-section .ms-wrapper {
-    text-align: center;
-    width: 50%;
-    margin: 0 auto;
 }
 
 main #ps4-section .ms-wrapper {
@@ -407,6 +407,27 @@ main #ps-plus .ms-button .ms-button-inside {
 
 main #ps-plus .ms-button:hover .ms-button-border {
     box-shadow: 0 0 0 2px #d9dadc;
+}
+
+/* sezione sconti */
+main #discounts{
+    padding: 100px 0;
+}
+
+main #discounts h3 {
+    color: #727272;
+}
+
+main #discounts .ms-wrapper {
+    margin-bottom: 50px;
+}
+
+main #discounts .ms-wrapper h2 {
+    margin-bottom: 30px;
+}
+
+main #discounts .container .row .col img {
+    max-width: 100%;
 }
 
 /* sezione ps now */
