@@ -84,20 +84,37 @@ header .navbar {
     background-color: #ffffff;
 }
 
-header nav div div#navbarNav li.nav-item {
+header nav div ul#navbarNav li.nav-item {
     display: flex;
     align-items: center;
 }
-/* 
-header nav div div#navbarNav li.nav-item a .ms-chevron-down {
-    display: inline-block;
-    height: 15px;
-    width: 15px;
-        background-image: url('../img/chevron-down-solid.svg');
-} */
+
+header nav div div#navbarNav li.nav-item a {
+    color: #000000;
+}
 
 header nav div div#navbarNav li.nav-item a img {
     height: 15px;
+}
+
+header nav div div#navbarNav li.nav-item a img:nth-child(2) {
+    display: none;
+}
+
+header nav div div#navbarNav li.nav-item a::after {
+    display: none;
+}
+
+header nav div div#navbarNav li.nav-item a:hover {
+    color: #2d64e6;
+}
+
+header nav div div#navbarNav li.nav-item a:hover img:nth-child(1) {
+    display: none;
+}
+
+header nav div div#navbarNav li.nav-item a:hover img:nth-child(2) {
+    display: inline-block;
 }
 
 header nav div div#navbarNav:last-child li.nav-item:last-child {
@@ -110,7 +127,7 @@ header nav div div#navbarNav:last-child li.nav-item:last-child {
     } 
 }
 
-header nav div div#navbarNav:last-child li.nav-item:last-child img {
+header nav div ul.navbar-nav:last-child li.nav-item:last-child img {
     height: 30px;
 }
 
@@ -119,6 +136,11 @@ header nav div div#navbarNav:last-child li.nav-item:last-child img {
         padding: 0;
     } 
 }
+
+header nav .ms-button {
+    color: #ffffff !important;
+} 
+
 
 /* ////////////////////////////////////////// */
 /* jumbotron */
