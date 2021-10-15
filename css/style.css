@@ -244,6 +244,11 @@ main #ps5-section #ps5-carousel .col {
     position: relative;
 }
 
+main #ps5-section #ps5-carousel .col a {
+    text-decoration: none;
+    color: #000000;
+}
+
 main #ps5-section #ps5-carousel .ms-ps5-overlay {
     display: block;
     position: absolute;
