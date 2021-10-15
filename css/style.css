@@ -350,6 +350,17 @@ main #ps4-section .ms-wrapper h2 {
     margin-bottom: 30px;
 }
 
+main #ps4-section .container .row .col {
+    margin-bottom: 50px;
+}
+
+@media (min-width: 768px) {
+    main #ps4-section .container .row .col {
+        margin-bottom: 0;
+    }
+    
+}
+
 main #ps4-section .container .row .col img {
     max-width: 100%;
     margin-bottom: 10px;
@@ -357,7 +368,10 @@ main #ps4-section .container .row .col img {
 
 main #ps4-section .container .row .col h2 {
     margin-bottom: 20px;
+}
 
+main #ps4-section .container .row .col h3 {
+    margin-bottom: 20px;
 }
 
 main #ps4-section .ms-button .ms-button-inside {
@@ -427,8 +441,15 @@ main #discounts .ms-wrapper h2 {
 }
 
 main #discounts .container .row .col img {
+    margin-bottom: 50px;
     max-width: 100%;
     transition: all .2s ease;
+}
+
+@media (min-width: 768px) {
+    main #discounts .container .row .col img {
+        margin-bottom: 0;
+    }
 }
 
 main #discounts .container .row .col a:hover img {
@@ -481,10 +502,9 @@ main #ps-now .ms-button:hover .ms-button-border {
 /* footer */
 
 /* social media  */
+
 footer #social-media {
-    width: 50%;
-    margin: 100px auto 150px;
-    text-align: center;
+    padding: 100px 0;
 }
 
 footer #social-media h2 {
@@ -492,9 +512,16 @@ footer #social-media h2 {
 }
 
 footer #social-media div img {
-    width: calc(20% - 20px);
-    margin: 0 20px;
+    width: calc((100% / 2) - 80px );
+    margin: 20px;
     transition: all .2s ease;
+}
+
+@media (min-width: 768px) {
+    footer #social-media div img {
+        width: calc((100% / 4) - 80px);
+        margin: 0 20px;
+    }
 }
 
 footer #social-media div a:hover img {
