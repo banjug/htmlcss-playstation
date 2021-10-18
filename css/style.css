@@ -131,15 +131,23 @@ header nav div ul.navbar-nav:last-child li.nav-item:last-child img {
     height: 30px;
 }
 
+
+header nav .ms-button {
+    width: 50%;
+    text-align: center;
+    color: #ffffff !important;
+}
+
 @media (min-width: 992px) {
     header nav div div#navbarNav:last-child li.nav-item:last-child img {
         padding: 0;
-    } 
+    }
+
+    header nav .ms-button {
+        width: 100%;
+    }
 }
 
-header nav .ms-button {
-    color: #ffffff !important;
-} 
 
 /* dropdown menu  */
 header nav .dropdown {
